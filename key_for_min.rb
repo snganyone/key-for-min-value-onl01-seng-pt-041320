@@ -5,8 +5,8 @@ def key_for_min_value(name_hash)
   min_key = nil
   min_value = nil
   name_hash.find do |key|
-    if condition
-    key[:"adam"] < name_hash[:"adam"]
+    if min_value < key[:"adam"]
+      min_value =
    end
   end
 end
